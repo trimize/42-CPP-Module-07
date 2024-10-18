@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   iter.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: to <to@student.42.fr>                      +#+  +:+       +#+        */
+/*   By: trimize <trimize@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/13 11:13:38 by to                #+#    #+#             */
-/*   Updated: 2024/09/13 11:46:26 by to               ###   ########.fr       */
+/*   Updated: 2024/09/13 16:30:09 by trimize          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 #include <cstddef>
 
-template<typename T>
+template <typename T>
 
 void	iter(T *array, size_t len, void(*f)(T &))
 {

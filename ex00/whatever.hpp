@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   whatever.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: to <to@student.42.fr>                      +#+  +:+       +#+        */
+/*   By: trimize <trimize@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/13 10:41:36 by to                #+#    #+#             */
-/*   Updated: 2024/09/13 10:54:07 by to               ###   ########.fr       */
+/*   Updated: 2024/09/13 16:30:15 by trimize          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef WHATEVER_HPP
 #define WHATEVER_HPP
 
-template<typename S>
+template <typename S>
 
 void	swap(S &x, S &y)
 {
@@ -23,14 +23,14 @@ void	swap(S &x, S &y)
 	y = tmp;
 }
 
-template<typename N>
+template <typename N>
 
 N	&min(N &x, N &y)
 {
 	return (x <= y ? x : y);
 }
 
-template<typename M>
+template <typename M>
 
 M	&max(M &x, M &y)
 {
